@@ -1,0 +1,54 @@
+{
+    "name": "@soundbluemusic/config",
+    "version": "1.0.0",
+    "description": "Shared configuration package for SoundBlueMusic projects",
+    "author": "SoundBlueMusic",
+    "license": "MIT",
+    "repository": {
+          "type": "git",
+          "url": "https://github.com/soundbluemusic/config.git"
+    },
+    "type": "module",
+    "exports": {
+          "./eslint": "./eslint/index.js",
+          "./prettier": "./prettier/index.js",
+          "./typescript/base": "./typescript/base.json",
+          "./typescript/react": "./typescript/react.json",
+          "./vite": "./vite/base.js",
+          "./browserslist": "./browserslist/index.js"
+    },
+    "files": [
+          "eslint",
+          "prettier",
+          "typescript",
+          "vite",
+          "browserslist"
+    ],
+    "keywords": [
+          "eslint-config",
+          "prettier-config",
+          "typescript-config",
+          "vite-config",
+          "soundbluemusic"
+    ],
+    "peerDependencies": {
+          "eslint": "^9.9.0",
+          "prettier": "^3.4.2",
+          "typescript": "^5.5.3",
+          "vite": "^7.2.6"
+    },
+    "devDependencies": {
+          "@eslint/js": "^9.9.0",
+          "eslint": "^9.9.0",
+          "eslint-plugin-react-compiler": "^19.1.0-rc.2",
+          "eslint-plugin-react-hooks": "^5.2.0",
+          "eslint-plugin-react-refresh": "^0.4.9",
+          "globals": "^16.5.0",
+          "prettier": "^3.4.2",
+          "typescript": "^5.5.3",
+          "typescript-eslint": "^8.0.1"
+    },
+    "engines": {
+          "node": ">=18.0.0"
+    }
+}
